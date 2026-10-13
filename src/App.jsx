@@ -5,6 +5,7 @@ import Scene from './Scene'
 import { Canvas } from '@react-three/fiber'
 import * as THREE from 'three'
 import { Suspense } from 'react'
+import { Loader } from '@react-three/drei'
 
 
 
@@ -21,6 +22,8 @@ const App = () => {
     
     </Canvas>
     </div>
+<Loader/>
+
     <div className='absolute inset-0 pointer-events-none z-10'>
         <Overlay/>
         </div>
