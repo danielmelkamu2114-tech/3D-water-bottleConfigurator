@@ -22,7 +22,10 @@ const App = () => {
     
     </Canvas>
     </div>
-<Loader/>
+
+
+    <Loader/>
+
 
     <div className='absolute inset-0 pointer-events-none z-10'>
         <Overlay/>
